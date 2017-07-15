@@ -1,0 +1,22 @@
+{
+  "name": "echo-server",
+  "version": "0.4.0",
+  "description": "An HTTP server which responds with the request in JSON",
+  "main": "server.js",
+  "bin": {
+    "echo-server": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jpillora@github.com/jpillora/node-echo-server.git"
+  },
+  "author": "Jaime Pillora <dev@jpillora.com>",
+  "license": "MIT",
+  "gruntSource": {
+    "source": "~/.grunt-sources/node",
+    "repo": "https://github.com/jpillora/grunt-source-node.git"
+  },
+  "dependencies": {
+    "mongoose": "^4.6.2"
+  }
+}
